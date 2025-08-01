@@ -2,6 +2,21 @@
   "expo": {
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "package": "com.leo.target",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      },
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.leo.target",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "icon": "./assets/ios-icon.png",
+    }
   }
 }
