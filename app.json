@@ -2,6 +2,7 @@
   "expo": {
     "name": "target",
     "slug": "target",
+    "scheme": "target",
     "version": "1.0.0",
     "android": {
       "package": "com.leo.target",
@@ -16,7 +17,11 @@
       "bundleIdentifier": "com.leo.target",
       "supportsTablet": true,
       "buildNumber": "1.0.0",
-      "icon": "./assets/ios-icon.png",
-    }
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
