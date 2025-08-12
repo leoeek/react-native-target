@@ -3,21 +3,24 @@ import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
-    gap: 5,
+    width: '100%',
+    paddingTop: 32,
   },
   header: {
     flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    gap: 5,
+    marginBottom: 32,
   },
-  label: {
-    fontSize: 12,
-    color: colors.white,
-    fontFamily: fontFamily.regular,
+  title: {
+    fontSize: 24,
+    color: colors.black,
+    fontFamily: fontFamily.bold,
+    marginBottom: 7,
   },
-  value: {
-    fontSize: 18,
-    color: colors.white,
+  subtitle: {
+    fontSize: 14,
+    color: colors.gray[500],
     fontFamily: fontFamily.regular,
   },
 })
